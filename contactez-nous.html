@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARGANIK - Coopérative Féminine</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contactez-nous.css">
+</head>
+<body>
+    
+    <header class="en-tete">
+        <div class="en-tete-haut">
+            <p>Livraison offerte au Maroc dès 300 MAD | Coopérative 100% solidaire et biologique certifiée</p>
+        </div>
+        <div class="en-tete-bas">
+            <a href="#" class="logo"><img src="img/logo/arganik-logo.svg" alt="Logo Arganik"></a>
+            <nav aria-label="Navigation principale">
+                <ul class="menu">
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Nos produits</a></li>
+                    <li><a href="#">Traçabilité</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="en-tete-bas-icons">
+                <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                <a href="#"><img src="img/divers/avatar-utilisateur.jpg" alt="Avatar"></a>
+            </div>
+        </div>
+    </header>
+
+  
+    <main>
+        <section>
+            <div class="section-titre">
+                <h2 class="title">Contacter-nous & Commandes</h2>
+                <h2 style="margin-top: 0;">sur-mesure</h2>
+                <p>Commandes directes auprès de nos 60 artisanes, paniers de terroirs personnalisés,</p>
+                <p>coffrets de cérémonie ou partenariats professionnels éthiques. Nous mettons un point</p>
+                <p>d'honneur à vous répondre avec attention.</p>
+            </div>
+        </section>
+
+        <section id="contactez-nous" class="section">
+            <div class="all-div">
+                <form>
+                    <h3>Envoyez-nous un message</h3>
+                    <p>Remplissez ce formulaire pour une commande ou une question spécifique.</p>
+                    
+                    <label for="nom">Nom complet *</label>
+                    <input type="text" id="nom" placeholder="Ex: Fatima Zahra El Amrani" required>
+                    
+                    <label for="email">Adresse email *</label>
+                    <input type="email" id="email" placeholder="nom@domaine.ma" required>
+                    <p>Nous répondons sous 24 heures</p>
+                    
+                    <label for="téléphone">Numéro de téléphone *</label>
+                    <input type="tel" id="téléphone" placeholder="+212 6 XX XX XX XX" required>
+                    <p>Indicatif WhatsApp ou appel direct</p>
+                    
+                    <label for="ville">Ville & Pays de destination *</label>
+                    <input type="text" id="ville" placeholder="Ex: Casablanca (Maroc), Lyon (France), Montréal (Canada)" required>
+                    
+                    <label for="option">Type de demande *</label>
+                    <select id="option" name="option" required>
+                        <option value="" selected disabled>Veuillez choisir une option...</option>
+                        <option value="test">Test</option>
+                        <option value="ikram">Ikram</option>
+                    </select>
+                    
+                    <br>
+                    <strong>Produits souhaités</strong>
+                    <p>(plusieurs choix possibles)</p>
+                    
+                    <label><input type="checkbox" id="check1"> Huile d'argan cosmétique bio</label>
+                    <label><input type="checkbox" id="check2"> Huile d'argan culinaire torréfiée</label>
+                    <label><input type="checkbox" id="check3"> Amlou traditionnel aux amandes</label>
+                    <label><input type="checkbox" id="check4"> Huile d'argan cosmétique bio</label>
+                    <label><input type="checkbox" id="check5"> Savon saponifié à froid & soins du hammam</label>
+                    
+                    <label for="msg">Message ou précisions de commande *</label>
+                    <textarea id="msg" rows="6" placeholder="Volumes désirés (litres, coffrets...), date limite souhaitée..." required></textarea>
+                    
+                    <label class="consent-label">
+                        <input type="checkbox" id="jaccepte" required>
+                        J'accepte que mes données soient traitées par la coopérative Arganik pour donner suite à ma demande. Vos informations ne sont jamais cédées à des tiers.
+                    </label>
+                    
+                    <button type="submit" class="butt">&#10148; Envoyer ma demande</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+ 
+    <footer class="body-class">
+        <div class="souspage">
+            <div class="items">
+                <h2>Arganik <span>SOUSS TERROIR</span></h2>
+                <p>Héritage séculaire de la Vallée du Souss. Notre coopérative féminine perpétue l'extraction artisanale de l'huile d'argan pure certifiée biologique, garantissant une juste rétribution à plus de 60 artisanes locales.</p>
+                <p id="ouverture">HORAIRES D'OUVERTURE</p>
+                <p class="icon-text"><img src="icons/horloge.svg" alt="heure" width="20px" height="20px">Lundi - Samedi : 08h30 - 18h00</p>
+            </div>
+
+            <div class="items">
+                <h2>NAVIGATION & PRODUITS</h2>
+                <p><a href="#">Accueil & Coopérative</a></p>
+                <p><a href="#">Huile d'Argan Cosmétique</a></p>
+                <p><a href="#">Huile Culinaire Torréfiée</a></p>
+                <p><a href="#">Amlou Traditionnel aux Amandes</a></p>
+                <p><a href="#">Savons Purs & Soins Botaniques</a></p>
+                <p><a href="#">Traçabilité & Cartographie</a></p>
+                <p><a href="#">Engagements & Impact Féminin</a></p>
+            </div>
+
+            <div class="items">
+                <h2>ATELIER & CONTACT</h2>
+                <p class="icon-text"><img src="icons/localisation.svg" alt="localisation" height="15px" width="15px">Route d'Imouzzer, Région Souss-Massa, Agadir, Maroc</p>
+                <p class="icon-text"><img src="data:image/png;base64,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@KAZsFiVntrB0K81JSw==" alt="messagerie" height="20px" width="20px">
+                <p class="social-icons">
+                    <img src="icons/appareil-photo.svg" alt="camera" height="20px" width="20px">
+                    <img src="icons/langue.svg" alt="langue" height="20px" width="20px">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLplG3kLzRI2SmZ7Frvx-PEoJ5cW88rDXgyFA6B9f0A7IUO9nASVbMAuQ&s" alt="enregistrer" height="20px" width="20px">
+                </p>
+            </div>
+
+            <div class="items">
+                <h2>LETTRE DU TERROIR</h2> 
+                <p>Recevez nos carnets de récolte, nouvelles de la coopérative et éditions limitées.</p>
+                <input type="text" placeholder="Votre adresse courriel...">
+                <button>S'inscrire</button>
+            </div>
+        </div>
+
+        <div class="footer-certifications">
+            <p><img src="icons/coche-cercle.svg" alt="true" width="20px" height="20px">CERTIFIÉ BIOLOGIQUE MAROC</p>
+            <p><img src="icons/feuille-eco.svg" alt="feuille-eco" width="20px" height="20px">ECOCERT COSMÉTIQUE NATUREL</p>
+            <p><img src="icons/groupe.svg" alt="groupe" width="20px" height="20px">COMMERCE ÉQUITABLE SOLIDAIRE</p>
+            <p><img src="icons/etoile-vide.svg" alt="etoile-vide" width="20px" height="20px">IGP ARGANE DU SOUSS</p>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 Coopérative Féminine Arganik. Tous droits réservés.</p>
+            <p>Mentions légales</p>
+            <p>Politique de confidentialité</p>
+            <p>Conditions de vente</p>
+        </div> 
+    </footer>
+</body>
+</html>
+
+   
