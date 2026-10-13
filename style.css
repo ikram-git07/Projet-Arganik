@@ -1,0 +1,258 @@
+*{
+    font-family: "Lato", sans-serif;
+    margin: 5px 7px;
+    padding: 0;
+}
+.en-tete{
+    position: sticky;
+    top:0;
+    z-index: 9;
+    background-color: #FEF7EF;
+}
+.en-tete-haut{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #183324;
+    color:beige;
+    height: 2em;
+    position: relative;
+    right: 7px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.en-tete-bas{
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 4em;
+
+}
+span{
+    color: #a7a5a5;
+}
+ul{
+    list-style: none;
+}
+.en-tete-bas-icons{
+    display: flex;
+    align-items: center;
+
+}
+.en-tete-bas-icons a img{
+    border-radius: 50%;
+    width: 2em;
+    border: 1.5px solid rgb(34, 255, 0);
+}
+.arganik-logo.png img{
+    width: 8em;
+}
+.menu{
+    display: flex;
+    background-color: #F9F2E6;
+    border-radius: 20px;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+.menu a{
+    text-decoration: none;
+    color: #8A9488;
+    padding: 6px 10px;
+    font-weight: 500;
+}
+.menu a:focus{
+    background-color: #2F493A;
+    height: 5px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    color: white;
+}
+.en-tete-bas-icons a i{
+    font-size: x-large;
+    color: black;
+    align-self: center;
+}
+body {
+    margin: 0;
+    padding: 0 15px;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+.body-class {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #53605a;
+}
+
+footer {
+    background-color: #f4ecdf;
+    margin: 30px 20px 22px;
+    padding: 50px 40px 30px;
+}
+
+.souspage {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    align-items: start;
+}
+
+.items h2 {
+    font-size: 0.95em;
+    color: #243f32;
+    margin: 0 0 15px;
+    font-weight: bold;
+}
+
+h2 span {
+    background-color: #f3a835;
+    color: #ffffff;
+    font-size: 0.8em;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.items p {
+    font-size: 0.85em;
+    line-height: 1.6;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #53605a;
+}
+
+.items p img {
+    margin: 0;
+    flex-shrink: 0;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+}
+
+button {
+    background-color: #1e3e2b;
+    color: #ffffff;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-certifications {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    border-top: 1px solid #d8c9b5;
+    margin-top: 40px;
+    padding-top: 25px;
+}
+
+.footer-certifications p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    font-size: 0.75em;
+    font-weight: bold;
+    color: #243f32;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    border-top: 1px solid #d8c9b5;
+    margin-top: 25px;
+    padding-top: 20px;
+    font-size: 0.75em;
+}
+
+#ouverture {
+    color: #e68910;
+    font-weight: bold;
+}
+
+.all_list {
+    display: flex;
+    gap: 15px;
+    font-family: 'Playfair Display', serif;
+}
+
+.list-1 {
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;   
+}
+
+.icon-position {
+    position: relative;
+    bottom: 5px;
+    left: 50px;
+}
+
+.product-image {
+    position: relative;
+    width: 590px;
+    border-radius: 10px;
+    left: 20px;
+}
+
+.badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #f0eee7;
+    padding: 8px 14px;
+}
+
+.product-image img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.point {
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.text {
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+}
+.feuille{
+    position: relative;
+    top:6px;
+}
+.bio{
+    display: flex;
+}
