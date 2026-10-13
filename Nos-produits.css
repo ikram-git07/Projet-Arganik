@@ -30,11 +30,12 @@ main{
     padding: 1px 0 1px 20px;
     color: #6c4c09;
     width: 20.6em;
-    border-radius: 5em;
     font-weight: 800;
-    font-size: 13px;
+    border-radius: 5em;
+    font-size: 12px;
 }
 .text-Terroir ul li span{
+    font-family: sans-serif;
     font-weight: 550;
     color: #6c4c09;
     
@@ -50,9 +51,28 @@ main{
 }
 .text-Terroir-logo{
     display: flex;
-    background-color: #d0cdcdc5;
+    background-color: #dedcda;
     align-items: end;
     align-self: flex-end;
-    width:auto;
+    padding: 5px;
     border-radius: 10px;
+}
+.text-Terroir-logo-icon{
+    background-color: #2F493A ;
+    padding: 8px 4px;
+    align-self: center;
+    border-radius: 6px;
+    margin: auto;
+}
+.text-logo h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: small;
+    color: #8A641B;
+}
+.text-logo p{
+    font-family: Georgia, serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: large;
 }
