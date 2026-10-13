@@ -1,0 +1,58 @@
+main{
+    background-color: #FAEEDB;
+}
+.main-produits{
+    display:flex;
+    padding: 50px 7px;
+    gap:12em;
+}
+.icon-text-Terroir{
+    display: flex;
+    color: black;
+    font-weight: 600;
+    font-size: small;
+}
+.icon-text-Terroir i{
+    margin: 0;
+    align-self: center;
+}
+.icon-text-Terroir p span{
+ color: #393838;
+ margin: 0;
+ padding: 0;
+}
+.icon-text-Terroir p{
+    padding: 0;
+    margin: 0;
+}
+.text-Terroir ul{
+    background: #f2ce80;
+    padding: 1px 0 1px 20px;
+    color: #6c4c09;
+    width: 20.6em;
+    border-radius: 5em;
+    font-weight: 800;
+    font-size: 13px;
+}
+.text-Terroir ul li span{
+    font-weight: 550;
+    color: #6c4c09;
+    
+}
+.text-Terroir h1{
+    font-size: 2.8em;
+    font-weight: 550;
+    padding: 5px 0;
+}
+.text-Terroir p{
+    font-size: 1.3em;
+    padding: 5px 0;
+}
+.text-Terroir-logo{
+    display: flex;
+    background-color: #d0cdcdc5;
+    align-items: end;
+    align-self: flex-end;
+    width:auto;
+    border-radius: 10px;
+}

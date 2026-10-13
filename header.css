@@ -1,5 +1,5 @@
 *{
-    font-family: "Lato", sans-serif;
+    font-family: 'Playfair Display', serif;
     margin: 5px 7px;
     padding: 0;
 }
@@ -33,9 +33,6 @@
 span{
     color: #a7a5a5;
 }
-ul{
-    list-style: none;
-}
 .en-tete-bas-icons{
     display: flex;
     align-items: center;
@@ -50,6 +47,7 @@ ul{
     width: 8em;
 }
 .menu{
+    list-style: none;
     display: flex;
     background-color: #F9F2E6;
     border-radius: 20px;
