@@ -157,15 +157,119 @@ h2 span {
 #ouverture{
     color: #e68910;
 }
+
 #en-tete{
     background-color:rgb(255, 224, 224) ;
-}
-.tete {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    padding: 60px 20px;
+    border-radius: 15px;
+
+
 
 }
-h2{
-    
+#en-tete > h1 {
+    margin-bottom: 20px;
 }
+#en-tete > h2 {
+    display: inline-block;
+    align-items: center;
+    gap: 8px;
+    background-color:#a56a25; 
+    color: #ede4d6;
+    font-size: 13px;
+    padding: 10px 16px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+#en-tete >h2 image {
+    margin: 0;
+}
+#en-tete > h1{
+    color: #183324;
+    font-size: 35px;
+
+}
+#en-tete > p {
+    width: 60%;
+    margin: 0 auto 30px;
+    width: 50%;
+}
+
+.tete {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 60%;
+    margin: 18px auto;
+    padding: 20px;
+    background-color: #faf8f4;
+    text-align: left;
+}
+
+.icone-recherche {
+    width: 25px;
+    height: 25px;
+    margin: 0;
+}
+
+
+.tete p {
+    margin: 0;
+    text-align: left;
+    color: #183324;
+    font-size: 17px;
+}
+#input_section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+#input_section > iMG {
+    width: 22px;
+    height: 22px;
+    margin: 0;
+}
+
+#input_section > input {
+    width: 50%;
+    padding: 12px;
+}
+
+#input_section button {
+    width: 45%;
+    padding:12px;
+    border-radius: 8px;
+    background-color: #daab11;
+}
+#footer_head{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-self: start;
+    align-items: flex-start;
+    gap: 15px;
+    width: 60%;
+}
+#footer_head >div{
+    width: 30%;
+    min-width: 180px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #E8E1D7;
+    border-radius: 10px;
+
+
+}
+#cercle_point{
+    font-size: smaller;
+    display: flex;
+    justify-self: center;
+    align-items: start;
+    justify-content: space-evenly;
+    
+
+}
+
