@@ -29,62 +29,166 @@
             </div>
         </div>
     </header>
-    <main>
-        <section>
-            <div class="all_list">
-    <div class="icon-position">
-        <img src="icons/accueil.svg" alt="Accueil">
-    </div>
-    <div>
-        <h4><a href="link of accueil">Accueil /</a></h4>
-    </div>
-    
-    <div class="list-1">
-        <h4><a href="">Nos Produits /</a></h4>
-        <h4><a href="">Soins cosmétiques /</a></h4>
-        <h4><a href=""> Huile d'argan cosmétique pure 100 ml </a></h4>
-    </div>
-    </div>
-    </section>
+  <main>
     <section>
-    <div class="product-image">
-
-        <img src="produits/cosmetique.jpg" alt="" width="550" height="600">
-
-        <div class="badge">
-            <span class="point"></span>
-            RÉCOLTE TERROIR
+        <div class="all_list">
+            <div class="icon-position">
+                <img src="icons/accueil.svg" alt="Accueil">
+            </div>
+            <div>
+                <h4><a href="#">Accueil /</a></h4>
+            </div>
+            <div class="list-1">
+                <h4><a href="#">Nos Produits /</a></h4>
+                <h4><a href="#">Soins cosmétiques /</a></h4>
+                <h4><a href="#">Huile d'arjan cosmétique pure 100 ml</a></h4>
+            </div>
         </div>
+    </section>
+
+   
+    <div class="product-wrapper" style="display: flex; gap: 40px; align-items: flex-start;">
+        
+        <!-- Section 1: Tswira -->
+        <section>
+            <div class="product-image">
+                <img src="img/produits/huile-argan-cosmetique-01.jpg" alt="" width="550" height="600">
+                <div class="badge">
+                    <span class="point"></span>
+                    RÉCOLTE TERROIR
+                </div>
+                <button type="button" class="zoom-trigger-btn" aria-label="Zoom">
+                <i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="photo-ads">
+                    <img src="img/fiche-produit/galerie-02-texture-pipette.jpg" alt="sirome">
+                </div>
+                <div><img src="img/fiche-produit/galerie-03-cueillette.jpg" alt="woman have arganik"></div>
+                <div><img src="img/fiche-produit/galerie-04-concassage.jpg" alt=""></div>
+                <div><img src="img/fiche-produit/galerie-05-etui-packaging.jpg" alt="satisfaction"></div>
+        </section>
+        <section>
+            <div class="bio"> 
+                <h5 class="certifie"> <strong>CERTIFIÉ BIO ECOCERT</strong></h5>
+                <h5 class="pure"> <strong>100% PURE & VIERGE</strong></h5>
+                <h5 class="froid"><strong>PRESSÉE À FROID</strong></h5>
+            </div>
+            <div>
+            
+                </div>
+            <div>
+                <h1>Huile d'Argan Cosmétique Extra</h1>
+                <h1>Vierge</h1>
+            </div>
+            <div class="rating-container">
+                <div class="stars">
+                    <p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><span></span>4.9/5 (142 avis vérifiés)
+                    </p>
+                </div>
+            </div>
+            <div class="recolte-box">
+                <img src="icons/feuille-eco.svg" alt="fuille" class="feuille">
+                <h4>Récolte 100% Manuelle</h4>
+            </div>
+            <div class="price-180">
+                <div>
+                    <div class="flex-price">
+                    <div><h1>180 MAD</h1></div>
+ 
+                    <div><p>(env. 16,50 €)</p></div>
+                    </div>
+                <p>TVA incluse • Rémunération directe reversée aux artisanes</p>
+                </div>
+                <div>
+                <p class="backg"><strong><span class="point-recolte">•</span>En stock</strong></p>
+                </div>
+                
+            </div>
+            <br>
+            <p class="desc">
+                Élixir régénérant d'une pureté absolue, naturellement gorgé d'acides gras essentiels (Oméga-6 et 9) et de vitamine E protectrice. Pressé patiemment à froid par nos coopératrices, il revitalise les tissus cutanés, illumine le teint, assouplit la fibre capillaire et préserve la jeunesse de la peau.
+            </p>
+
+            <div class="sizes-box">
+                <div class="sizes-header">
+                    <span class="label">CONTENANCE SÉLECTIONNÉE</span>
+                    <span class="info">flacon 100 ml (cure 2 mois)</span>
+                </div>
+                <div class="sizes-list">
+                    <button class="size-btn">
+                        <span class="ml">50 ml</span>
+                        <span class="price">110 MAD</span>
+                    </button>
+                    <button class="size-btn active">
+                        <span class="ml">100 ml</span>
+                        <span class="price">180 MAD</span>
+                    </button>
+                    <button class="size-btn">
+                        <span class="ml">250 ml</span>
+                        <span class="price">350 MAD</span>
+                    </button>
+                </div>
+            </div>
+           <div class="cart-row">
+    <div class="qty-box">
+        <button type="button" class="qty-btn" id="qty-minus" aria-label="Diminuer">
+            <i class="fa-solid fa-minus"></i>
+        </button>
+        <input type="number" class="qty-input" id="qty-input" value="1" min="1">
+        <button type="button" class="qty-btn" id="qty-plus" aria-label="Augmenter">
+            <i class="fa-solid fa-plus"></i>
+        </button>
     </div>
-</section>
-<section>
-    <div class="bio"> 
-        <h5>CERTIFIÉ BIO ECOCERT</h5>
-        <h5>100% PURE & VIERGE</h5>
-        <h5>PRESSÉE À FROID</h5>
-    </div>
-    <div>
-        <h1>Huile d'Argan Cosmétique Extra</h1>
-        <h1>Vierge</h1>
-    </div>
-        <div class="rating-container">
-  <div class="stars">
-    <p>
-    <i class="fa-solid fa-star"></i>
-    <i class="fa-solid fa-star"></i>
-    <i class="fa-solid fa-star"></i>
-    <i class="fa-solid fa-star"></i>
-    <i class="fa-solid fa-star-half-stroke"></i><span></span>4.9/5 (142 avis vérifiés)</p>
-  </div>
+
+    <button type="button" class="cart-btn">
+        <img src="" alt="">
+        <span class="cart-label" id="cart-label">Ajouter au panier — 180 MAD</span>
+    </button>
 </div>
-<h4><img src="icons/feuille-eco.svg" alt="fuille" class="feuille">Récolte 100% Manuelle</h4>
-</section>
-    </main>
+
+            <button class="express-btn">
+                <img src="icons/eclair.svg" alt="" class="btn-icon">
+                <strong>Commander en 1 clic (Achat express)</strong>
+            </button>
+            <br>
+
+            <div class="features-bar">
+                <div class="feature-item">
+                    <img src="icons/livraison.svg" alt="" class="feature-icon">
+                    <div class="feature-text">
+                        <strong>Livraison 48h</strong>
+                        <span>Partout au Maroc</span>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <img src="icons/edition.svg" alt="" class="feature-icon">
+                    <div class="feature-text">
+                        <strong>Verre anti-UV</strong>
+                        <span>Protection active</span>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <img src="icons/favori-plein.svg" alt="" class="feature-icon">
+                    <div class="feature-text">
+                        <strong>Impact Solidaire</strong>
+                        <span>100% Coopérative</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
     <footer class="body-class">
     <div class="souspage">
         <div class="items">
             <h2>Arganik <span>SOUSS TERROIR</span></h2>
-            <p>Héritage séculaire de la Vallée du Souss. Notre coopérative féminine perpétue l'extraction artisanale de l'huile d'argan pure certifiée biologique, garantissant une juste rétribution à plus de 60 artisanes locales.</p>
+            <p>Héritage séculaire de la Vallée du Souss. Notre coopérative féminine perpétue l'extraction artisanale de l'huile d'argan pure certifiée biologique, garantissant une </p> 
+            <p>juste rétribution à plus de 60 artisanes locales.</p>
             <p id="ouverture">HORAIRES D'OUVERTURE</p>
             <p class="icon-text"><img src="icons/horloge.svg" alt="heure" width="20px" height="20px">Lundi - Samedi : 08h30 - 18h00</p>
         </div>
@@ -134,6 +238,7 @@
         <p>Politique de confidentialité</p>
         <p>Conditions de vente</p>
     </div> 
+    
   </footer>
 </body>
 </html>

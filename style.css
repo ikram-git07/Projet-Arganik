@@ -1,91 +1,567 @@
-*{
+/* =========================================================
+   RESET
+   margin: 5px 7px kan kay-zid 14px 3la kol element w kay-khrej
+   l-layout. Daba margin 0, w kan-zido l-espace b7al ma n7tajo.
+   ========================================================= */
+* {
     font-family: "Lato", sans-serif;
-    margin: 5px 7px;
-    padding: 0;
-}
-.en-tete{
-    position: sticky;
-    top:0;
-    z-index: 9;
-    background-color: #FEF7EF;
-}
-.en-tete-haut{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:  #183324;
-    color:beige;
-    height: 2em;
-    position: relative;
-    right: 7px;
-    font-size: 12px;
-    font-weight: 700;
-}
-.en-tete-bas{
-    display:flex;
-    justify-content: center;
-    justify-content: space-between;
-    align-items: center;
-    height: 4em;
-
-}
-span{
-    color: #a7a5a5;
-}
-ul{
-    list-style: none;
-}
-.en-tete-bas-icons{
-    display: flex;
-    align-items: center;
-
-}
-.en-tete-bas-icons a img{
-    border-radius: 50%;
-    width: 2em;
-    border: 1.5px solid rgb(34, 255, 0);
-}
-.arganik-logo.png img{
-    width: 8em;
-}
-.menu{
-    display: flex;
-    background-color: #F9F2E6;
-    border-radius: 20px;
-    width: 100%;
-    height: 50px;
-    align-items: center;
-}
-.menu a{
-    text-decoration: none;
-    color: #8A9488;
-    padding: 6px 10px;
-    font-weight: 500;
-}
-.menu a:focus{
-    background-color: #2F493A;
-    height: 5px;
-    padding: 8px 16px;
-    border-radius: 10px;
-    color: white;
-}
-.en-tete-bas-icons a i{
-    font-size: x-large;
-    color: black;
-    align-self: center;
-}
-body {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     padding: 0 15px;
-    font-family: Arial, sans-serif;
     color: #333333;
     background-color: #ffffff;
 }
 
-.body-class {
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+span {
+    color: #a7a5a5;
+}
+
+button {
+    background-color: #1e3e2b;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-bottom: 8px;
+}
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+.en-tete {
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    background-color: #FEF7EF;
+}
+
+.en-tete-haut {
+    width: 100%;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #183324;
+    color: beige;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.en-tete-bas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4em;
+    padding: 0 20px;
+}
+
+.logo img {
+    width: 140px;
+    display: block;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #F9F2E6;
+    border-radius: 20px;
+    height: 44px;
+    padding: 0 10px;
+}
+
+.menu a {
+    display: block;
+    padding: 8px 16px;
+    color: #8A9488;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.menu a:focus,
+.menu a:hover {
+    background-color: #2F493A;
+    color: #ffffff;
+}
+
+.en-tete-bas-icons {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.en-tete-bas-icons a i {
+    font-size: 22px;
+    color: black;
+}
+
+.en-tete-bas-icons a img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1.5px solid #22ff00;
+    display: block;
+}
+
+/* =========================================================
+   FIL D'ARIANE
+   ========================================================= */
+.all_list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 1400px;
+    padding: 0 20px;
+    margin: 20px auto 0;
+    font-size: 12px;
+}
+
+.all_list h4 {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.list-1 {
+    display: flex;
+    gap: 10px;
+}
+
+.icon-position img {
+    width: 14px;
+    height: 14px;
+    display: block;
+}
+
+/* =========================================================
+   PAGE PRODUIT: 2 colonnes
+   ========================================================= */
+.product-wrapper {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    max-width: 1400px;
+    padding: 0 20px;
+    margin: 30px auto;
+}
+
+/* ---------- Colonne gauche: galerie ---------- */
+.gallery {
+    width: 48%;
+    flex-shrink: 0;
+}
+
+.product-image {
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-image img {
+    width: 100%;
+    aspect-ratio: 4 / 5;      /* 500px large => ~625px haut */
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+
+.badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 12px;
+    background-color: #f0eee7;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 700;
+    color: #333;
+}
+
+.point {
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.zoom-trigger-btn {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: #f0eee7;
+    color: #1e3e2b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+}
+
+.zoom-trigger-btn:hover {
+    transform: scale(1.1);
+}
+
+.zoom-trigger-btn i {
+    font-size: 16px;
+}
+
+/* Thumbnails: 4 visibles, l-5mssa b scroll */
+.photo-ads {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+    overflow-x: auto;
+}
+
+.photo-ads img {
+    flex: 0 0 calc((100% - 30px) / 4);   /* 4 f s-satr */
+    aspect-ratio: 1 / 1;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.photo-ads img.active {
+    border-color: #c8602f;
+}
+
+/* ---------- Colonne droite: details ---------- */
+.details {
+    flex: 1;
+    min-width: 0;             /* darouri bach ma-yfid-ch mn flex */
+}
+
+.details > * + * {
+    margin-top: 14px;         /* espace bin les blocs */
+}
+
+.details h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: #1e3e2b;
+}
+
+/* Badges (certifie / pure / froid) */
+.bio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.bio h5 {
+    padding: 6px 12px;
+    font-size: 11px;
+    font-weight: 700;
+    border-radius: 8px;
+}
+
+.certifie,
+.froid {
+    color: #1e3e2b;
+    background-color: #ded8d0;
+}
+
+.pure {
+    color: #9d6a1e;
+    background-color: #e3d8ca;
+}
+
+/* Notes */
+.rating-container p {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 13px;
+}
+
+.rating-container i {
+    color: #b8860b;
+    font-size: 14px;
+}
+
+.recolte-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.recolte-box h4 {
+    font-size: 12px;
+}
+
+.feuille {
+    width: 20px;
+    height: 20px;
+}
+
+/* Prix */
+.price-180 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 20px;
+    background-color: #ece5db;
+    border-radius: 10px;
+}
+
+.price-180 h1 {
+    font-size: 2.2rem;
+}
+
+.price-180 p {
+    font-size: 11px;
+    color: #53605a;
+}
+
+.flex-price {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.flex-price p {
+    font-size: 13px;
+}
+
+.backg {
+    display: inline-block;
+    padding: 4px 10px;
+    background-color: #8fe4b5;
+    border-radius: 10px;
+    font-size: 11px;
+    color: #1e3e2b;
+}
+
+.point-recolte {
+    color: #1e3e2b;
+    margin-right: 4px;
+}
+
+.desc {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Contenance (ligne separatrice fouqaha) */
+.sizes-box {
+    padding-top: 16px;
+    border-top: 1px solid #d8c9b5;
+}
+
+.sizes-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 0.85rem;
+}
+
+.sizes-header .label {
+    font-weight: bold;
+    color: #1e3e2b;
+}
+
+.sizes-header .info {
+    color: #9d6a1e;
+}
+
+.sizes-list {
+    display: flex;
+    gap: 10px;
+}
+
+.size-btn {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    padding: 10px;
+    background-color: #f9f2e6;
+    border: 1px solid #d8c9b5;
+    border-radius: 8px;
+    color: #333333;
+    cursor: pointer;
+}
+
+.size-btn .ml {
+    font-weight: bold;
+    color: #333333;
+}
+
+.size-btn .price {
+    font-size: 0.85rem;
+    color: #333333;
+}
+
+.size-btn.active {
+    background-color: #1e3e2b;
+    border-color: #1e3e2b;
+}
+
+.size-btn.active .ml,
+.size-btn.active .price {
+    color: #ffffff;
+}
+
+/* Quantite + panier */
+.cart-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 0;
+    border-top: 1px solid #d8c9b5;      /* ligne bin contenance w panier */
+    border-bottom: 1px solid #d8c9b5;  
+}
+
+.qty-box {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border: 1px solid #d8c9b5;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+.qty-btn {
+    width: 36px;
+    height: 100%;
+    padding: 0;
+    border-radius: 0;
+    background-color: #f9f2e6;
+    color: #1e3e2b;
+}
+
+.qty-input {
+    width: 40px;
+    height: 100%;
     margin: 0;
-    font-family: Arial, sans-serif;
+    padding: 0;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1e3e2b;
+    background-color: #ffffff;
+    -moz-appearance: textfield;
+}
+
+.qty-input::-webkit-outer-spin-button,
+.qty-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.cart-btn {
+    flex: 1;
+    height: 50px;
+    border-radius: 8px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.express-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 14px;
+    background-color: #f6e6e6;
+    color: #1e3e2b;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.btn-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.qty-btn i {
+    font-size: 12px;
+}
+
+.cart-btn i {
+    font-size: 15px;
+}
+
+
+.cart-label {
+    color: inherit;
+}
+
+/* Features */
+.features-bar {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    border-top: 1px solid #d8c9b5;      
+    padding-top: 20px;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.85rem;
+}
+
+.feature-icon {
+    width: 22px;
+    height: 22px;
+}
+
+.feature-text strong {
+    display: block;
+    color: #1e3e2b;
+}
+
+.feature-text span {
+    color: #666;
+    font-size: 0.8rem;
+}
+
+footer,
+.body-class {
     color: #53605a;
 }
 
@@ -105,7 +581,7 @@ footer {
 .items h2 {
     font-size: 0.95em;
     color: #243f32;
-    margin: 0 0 15px;
+    margin-bottom: 15px;
     font-weight: bold;
 }
 
@@ -118,38 +594,22 @@ h2 span {
 }
 
 .items p {
-    font-size: 0.85em;
-    line-height: 1.6;
-    margin-bottom: 8px;
     display: flex;
     align-items: center;
     gap: 8px;
+    margin-bottom: 8px;
+    font-size: 0.85em;
+    line-height: 1.6;
     color: #53605a;
 }
 
 .items p img {
-    margin: 0;
     flex-shrink: 0;
 }
 
-input {
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    outline: none;
-    box-sizing: border-box;
-    margin-bottom: 8px;
-}
-
-button {
-    background-color: #1e3e2b;
-    color: #ffffff;
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+#ouverture {
+    color: #e68910;
+    font-weight: bold;
 }
 
 .footer-certifications {
@@ -157,17 +617,15 @@ button {
     justify-content: space-between;
     align-items: center;
     gap: 1em;
-    border-top: 1px solid #d8c9b5;
     margin-top: 40px;
     padding-top: 25px;
+    border-top: 1px solid #d8c9b5;
 }
 
 .footer-certifications p {
     display: flex;
-    flex-direction: row;
     align-items: center;
     gap: 10px;
-    margin: 0;
     font-size: 0.75em;
     font-weight: bold;
     color: #243f32;
@@ -178,81 +636,8 @@ button {
     justify-content: space-between;
     align-items: center;
     gap: 15px;
-    border-top: 1px solid #d8c9b5;
     margin-top: 25px;
     padding-top: 20px;
+    border-top: 1px solid #d8c9b5;
     font-size: 0.75em;
-}
-
-#ouverture {
-    color: #e68910;
-    font-weight: bold;
-}
-
-.all_list {
-    display: flex;
-    gap: 15px;
-    font-family: 'Playfair Display', serif;
-}
-
-.list-1 {
-    display: flex;
-    gap: 15px;
-}
-
-a {
-    color: inherit;
-    text-decoration: none;   
-}
-
-.icon-position {
-    position: relative;
-    bottom: 5px;
-    left: 50px;
-}
-
-.product-image {
-    position: relative;
-    width: 590px;
-    border-radius: 10px;
-    left: 20px;
-}
-
-.badge {
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    background-color: #f0eee7;
-    padding: 8px 14px;
-}
-
-.product-image img {
-    width: 100%;
-    height: 700px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin: 0;
-}
-
-.point {
-    width: 8px;
-    height: 8px;
-    background-color: black;
-    border-radius: 50%;
-}
-
-.text {
-    font-size: 12px;
-    font-weight: bold;
-    color: #333;
-}
-.feuille{
-    position: relative;
-    top:6px;
-}
-.bio{
-    display: flex;
 }
