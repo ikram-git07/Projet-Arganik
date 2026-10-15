@@ -158,15 +158,17 @@ h2 span {
     color: #e68910;
 }
 
-#en-tete{
-    background-color:rgb(255, 224, 224) ;
+#en-tete {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F7F3ED;
     width: 100%;
-    text-align: center;
+    margin: 0;
     padding: 60px 20px;
-    border-radius: 15px;
-
-
-
+    text-align: center;
+    border-radius: 0;
 }
 #en-tete > h1 {
     margin-bottom: 20px;
@@ -243,33 +245,89 @@ h2 span {
     border-radius: 8px;
     background-color: #daab11;
 }
-#footer_head{
+
+#footer_head {
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-self: start;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: stretch;
     gap: 15px;
     width: 60%;
+    margin: 18px auto;
+    padding: 20px;
+    background-color: #faf8f4;
+    border-radius: 12px;
 }
-#footer_head >div{
-    width: 30%;
-    min-width: 180px;
+
+#cercle_point {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+#cercle_point p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+    font-size: 13px;
+    color: #183324;
+}
+
+#cercle_point img {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+}
+
+#sous {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+}
+
+#sous > div {
+    flex: 1 1 180px;
+    min-width: 0;
     padding: 15px;
     background-color: #ffffff;
-    border: 1px solid #E8E1D7;
+    border: 1px solid #e8e1d7;
     border-radius: 10px;
-
-
 }
-#cercle_point{
-    font-size: smaller;
-    display: flex;
-    justify-self: center;
-    align-items: start;
-    justify-content: space-evenly;
-    
 
+#sous h4 {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 0 0 12px;
+    font-size: 13px;
+    color: #8a9488;
+}
+
+#sous h4 img {
+    width: 16px;
+    height: 16px;
+    margin: 0;
+}
+
+#sous h3 {
+    margin: 0 0 8px;
+    font-size: 16px;
+    color: #183324;
+}
+
+#sous p {
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #53605a;
+}
+#tous {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
