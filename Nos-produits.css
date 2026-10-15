@@ -321,3 +321,92 @@ section{
     border-radius: 10px;
     align-self: center;
 }
+.vide-part-bas{
+    display: flex;
+    
+}
+.vide{
+    width: 250px;
+    margin-right: 50px;
+}
+.parte-bas{
+   display:flex;
+   align-items: center;
+   gap:15em;
+}
+
+.parte-bas div button{
+    font-size: 16px;
+    font-weight: 500;
+    
+    border-radius: 10px;
+    border: none;
+}
+.parte-bas div{
+    margin-top: 0;
+}
+.btn{
+    background-color:#f1e6d5d9;
+    padding: 15px;
+    margin: 1px;
+}
+.btn2{
+    background-color: #f1e6d5d9;
+    padding: 9px;
+    margin: 1px;
+}
+.btn1{
+    background-color:#97939333;
+    color:#6b6b6b3c;
+    padding: 9px;
+    margin: 1px;
+}
+.Livrason-garantie{
+    display: flex;
+    background-color: #162d20;
+    margin: 0;
+}
+.Livraison{
+    display: flex;
+}
+.garantie{
+    display: flex;
+}
+.garantie i{
+    background-color: #0b1d13;
+    align-self:center;
+    padding: 0.5em;
+    font-size: 1.5em;
+    color:#6c4c09;
+    border-radius:50%
+}
+.Livraison i{
+    background-color: #0b1d13;
+    align-self:center;
+    padding: 0.5em;
+    font-size:1.5em;
+    color:#6c4c09;
+    border-radius: 50%;
+}
+.Livraison div p{
+    color:rgba(255, 255, 255, 0.539);
+    font-weight: 500;
+    font-size: 14px;
+}
+.garantie div p{
+    color:rgba(255, 255, 255, 0.539);
+    font-weight: 500;
+    font-size: 14px;
+}
+.garantie div h3{
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font-size:1.5em;
+    font-weight: 500;
+}
+.Livraison div h3{
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font-size:1.5em;
+    font-weight: 500;
+}
