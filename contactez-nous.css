@@ -116,6 +116,19 @@ a {
     margin-top: 5px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 .section-titre p {
 
     font-size: 16px;
@@ -126,7 +139,7 @@ a {
 }
 .section-titre .first-tit{
     background-color: rgb(241, 221, 196);
-    color: rgba(82, 52, 52, 0.219);
+    color: rgba(38, 34, 34, 0.219);
     border-radius: 15px;
     display: inline-block;
 }
@@ -249,6 +262,11 @@ a {
     background-color: #24372b;
 }
 
+
+
+
+
+
 footer.body-class {
     background-color: #f4ecdf;
     margin: 0;
@@ -303,34 +321,58 @@ footer.body-class {
     flex-shrink: 0;
 }
 
-
-
-
-.info-copira{
-    background-color: #f4ecdf;
-    border-radius: 10px;
-   margin: 50px;
-}
-
-.tit-1{
-   font-family: Arial, Helvetica, sans-serif;
-   margin: 30px;
-
-
-}
-.tit-1 p{
-    color: brown;
-}
-.tit-2{
-    margin: 30px;
-}
-.tit-3{
-margin: 30px;
+#contactez-nous {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fcfbfa; /
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center; 
 }
 
 
+.info-copira {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    max-width: 500px; 
+    width: 100%;
+}
 
 
+.info-copira h3 {
+    color: #4a3b32; 
+    font-size: 22px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+
+.info-copira p {
+    color: #7d7066; 
+    font-size: 14px;
+    margin: 4px 0 15px 0;
+    line-height: 1.5; 
+}
+
+
+.info-copira strong {
+    color: #2b221a;
+    font-size: 15px;
+    display: block; 
+    margin-top: 15px;
+}
+
+
+.info-copira a {
+    color: #6b5b52;
+    text-decoration: none; 
+    border-bottom: 1px dashed #6b5b52; 
+}
+
+.info-copira a:hover {
+    color: #8c7669; 
+}
 
 
 
