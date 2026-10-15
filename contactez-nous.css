@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f7f6f2;
+    background-color: #FEF7EF;
     color: #333333;
 }
 
@@ -99,7 +99,34 @@ a {
     font-size: x-large;
     color: black;
 }
+/* hma t9ada lheader dial zakaria  */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* hadi dial titre lwel li tayban lia lkbir  */
 .section-titre {
     text-align: center;
 }
@@ -115,20 +142,6 @@ a {
     color: #05404e;
     margin-top: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .section-titre p {
 
     font-size: 16px;
@@ -137,25 +150,22 @@ a {
     max-width: 850px;
     margin: 10px auto;
 }
+/* hada dial wast dwara lfo9  */
 .section-titre .first-tit{
     background-color: rgb(241, 221, 196);
     color: rgba(38, 34, 34, 0.219);
     border-radius: 15px;
     display: inline-block;
 }
-.section {
-    max-width: 800px;
-    margin:30px;
-    padding: auto;
-}
 
 .all-div {
     max-width: 850px;
     margin: 0 auto;
     padding: 35px;
-    background-color: #f1f3d6;
+     background-color: #f1f3d6; 
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+   
 }
 
 .all-div h3 {
@@ -323,7 +333,6 @@ footer.body-class {
 
 #contactez-nous {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #fcfbfa; /
     padding: 40px 20px;
     display: flex;
     justify-content: center; 
@@ -331,20 +340,30 @@ footer.body-class {
 
 
 .info-copira {
-    background-color: #ffffff;
+    gap: 10px;
     padding: 30px;
-    border-radius: 12px; 
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    max-width: 500px; 
-    width: 100%;
+    width: 100vw;
+    height: 100px;
+
 }
+.copira{
+    display: flex;
+}
+.info-copira-horaires{
+background-color: beige;
+color: black;
+border-radius: 15px;
+padding: 10px;
+margin: 20px ;
 
 
+}
 .info-copira h3 {
     color: #4a3b32; 
     font-size: 22px;
     margin-bottom: 5px;
     margin-top: 0;
+  
 }
 
 
@@ -353,25 +372,21 @@ footer.body-class {
     font-size: 14px;
     margin: 4px 0 15px 0;
     line-height: 1.5; 
+   
+}
+.back-info{
+    background-color: #d8c9b5;
+    border-radius: 15px;
 }
 
-
-.info-copira strong {
-    color: #2b221a;
-    font-size: 15px;
-    display: block; 
-    margin-top: 15px;
-}
-
-
-.info-copira a {
-    color: #6b5b52;
-    text-decoration: none; 
-    border-bottom: 1px dashed #6b5b52; 
-}
-
-.info-copira a:hover {
-    color: #8c7669; 
+.livraison{
+    background-color: #f1f3d6;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 
@@ -439,210 +454,7 @@ footer.body-class {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* hada rah lfooter dial bader */
 
 .body-class {
     margin: 0;
