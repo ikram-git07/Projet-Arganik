@@ -74,11 +74,6 @@ ul{
     font-size: x-large;
     color: black;
 }
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    color: #53605a;
-}
 footer {
     background-color: #f4ecdf;
     margin: 30px 20px 22px;
@@ -123,7 +118,6 @@ h2 span {
     border-radius: 10px;
 }
 
-
 .footer-certifications {
     display: flex;
     flex-wrap: wrap;
@@ -162,7 +156,6 @@ h2 span {
     background-repeat:no-repeat;
     background-size: cover;
     background: transparent#183324;
-    
     padding-top: 20px;
     margin-top: 0px;
 }
@@ -205,4 +198,13 @@ img{
 .valide1{
     display: flex;
     align-items: center;
+}
+.groupe{
+    display: flex;
+    gap: 5px;
+}
+.d1{
+    flex: 1;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.253);
+    border-radius: 20px;
 }
