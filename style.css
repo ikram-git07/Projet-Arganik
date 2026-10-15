@@ -1,0 +1,125 @@
+*{
+    font-family: "Lato", sans-serif;
+    margin: 5px 7px;
+    padding: 0;
+}
+.en-tete{
+    position: sticky;
+    top:0;
+    z-index: 9;
+    background-color: #FEF7EF;
+}
+.en-tete-haut{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #183324;
+    color:beige;
+    height: 2em;
+    position: relative;
+    right: 7px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.en-tete-bas{
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 4em;
+
+}
+span{
+    color: #a7a5a5;
+}
+ul{
+    list-style: none;
+}
+.en-tete-bas-icons{
+    display: flex;
+    align-items: center;
+
+}
+.en-tete-bas-icons a img{
+    border-radius: 50%;
+    width: 2em;
+    border: 1.5px solid rgb(34, 255, 0);
+}
+.logo img{
+    width: 8em;
+}
+.menu{
+    display: flex;
+    background-color: #F9F2E6;
+    border-radius: 20px;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+.menu a{
+    text-decoration: none;
+    color: #8A9488;
+    padding: 6px 10px;
+    font-weight: 500;
+}
+.menu a:focus{
+    background-color: #2F493A;
+    height: 5px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    color: white;
+}
+.en-tete-bas-icons a i{
+    font-size: x-large;
+    color: black;
+}
+.Hero {
+    background-image: url(img/hero/accueil-hero-cooperatrices.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background: transparent#183324;
+    
+    padding-top: 20px;
+    margin-top: 0px;
+}
+.certifie{
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 15px;
+}
+.foret{
+    display: flex;
+    align-items: center;
+    background: transparent;
+    backdrop-filter: blur(20px);
+}
+.fleche{
+    display: flex;
+    align-items: center;
+     background: transparent;
+    backdrop-filter: blur(20px);
+   
+}
+.c1{
+    display: flex;
+    align-items: center;
+}
+.c2{
+    display: flex;
+    align-items: center;
+}
+.c3{
+    display: flex;
+    align-items: center;
+}
+.valide{
+    display: flex;
+    align-items: center;
+}
+.valide1{
+    display: flex;
+    align-items: center;
+}
