@@ -3,6 +3,9 @@
     margin: 5px 7px;
     padding: 0;
 }
+body{
+    background-color: #FFF3E3;
+}
 .en-tete{
     position: sticky;
     top:0;
@@ -152,17 +155,31 @@ h2 span {
 }
 
 .Hero {
-    background-image: url(img/hero/accueil-hero-cooperatrices.jpg);
+    background: url("img/hero/accueil-hero-cooperatrices.jpg");
+    height: 100vh;
     background-repeat:no-repeat;
     background-size: cover;
     background: transparent#183324;
-    padding-top: 20px;
-    margin-top: 0px;
+   
+
+}
+
+.img1{
+    width: 100%;
+    position: relative;
+    top:-30px
 }
 .certifie{
     display: flex;
     align-items: center;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 5px;
+    width: 358px
+    
+    
 }
+
 img{
     width: 15px;
 }
@@ -171,13 +188,14 @@ img{
     align-items: center;
     background: transparent;
     backdrop-filter: blur(20px);
+    border-radius: 5px;
 }
 .fleche{
     display: flex;
     align-items: center;
-     background: transparent;
+    background: transparent;
     backdrop-filter: blur(20px);
-   
+    border-radius: 5px;
 }
 .c1{
     display: flex;
@@ -202,9 +220,57 @@ img{
 .groupe{
     display: flex;
     gap: 5px;
+
 }
 .d1{
     flex: 1;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.253);
     border-radius: 20px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin-top: -48px;
+}
+.etoile{
+    display: flex;
+}
+.Huile{
+    display: flex;
+    align-items: center;
+}
+.Produits{
+    display: flex;
+    gap: 5px;
+    
+}
+.ajou{
+    display: flex;
+    flex-direction: column;
+
+}
+.ajout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.prd{
+    border-radius: 10px;
+    background-color: rgb(201, 154, 125);
+    padding: 10px;
+}
+.Produit{
+    flex: 1;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.ss{
+    border-radius: 10px;
+    padding:5px;
+    background-color: #ffe9cf;
+    width: 150px;
+
+}
+.hero1{
+    font-size:50px;
 }
