@@ -434,20 +434,21 @@ strong{
     opacity: 0.7;
 }
 .dr-noir{
-    background-color: black;
-    color: white;
+    background-color: rgb(50, 49, 49);
+    color: whitesmoke;
     margin: 50px;
     border-radius: 15px;
     margin-top: 20px;
     height: 16vh;
-padding: 5px;
+    padding: 5px;
 }
 .dr-noir h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
-
-
-
+.dr-noir p{
+    opacity: 0.7;
+}
 
 
 
