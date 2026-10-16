@@ -11,13 +11,19 @@
 </head>
 <body>
        
-    <header class="en-tete">
+<header class="en-tete">
         <div class="en-tete-haut">
             <p>Livraison offerte au Maroc dès 300 MAD<span> • </span>Coopérative 100% solidaire et biologique certifiée</p>
         </div>
         <div class="en-tete-bas">
             <a href="#" class="logo"><img src="image/logo/arganik-logo.svg" alt=""></a>
             <nav aria-label="Navigation principale">
+                <input type="checkbox" id="burger">
+
+                <label for="burger" class="burger-icon">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+
             <ul class="menu">
                 <li><a href="#">Accueil</a></li>
                 <li><a href="#">Nos produits</a></li>
@@ -42,6 +48,7 @@
             Arganik porte l'histoire d'un terroir préservé et le savoir-faire méticuleux de nos
             coopératrices.</p>
             <div >
+                <!-- premiere chapitre -->
                 <div class="tete">
                     <img src="img/rechercher.png" alt="Rechercher" class="icone-recherche">
 
@@ -84,8 +91,8 @@
         </div>
         <!-- deuxieme chapitre -->
          <div>
-            <h4>LE R I T U EL DE FA B R I CAT I O N</h4>
-            <h2>6 Étapes, Zéro Compromis</h2>
+            <h4 id="">LE R I T U EL DE FA B R I CAT I O N</h4>
+            <h2 id="">6 Étapes, Zéro Compromis</h2>
             <p>De la cime des arbres protégés de l'UNESCO jusqu'au scellement du bouchon en verre
                 ambré, chaque geste répond aux normes d'excellence les plus strictes.</p>
 
@@ -126,7 +133,7 @@
             </div>
 
             <div>
-             <div  class="image-container-left">
+             <div class="image-container-left">
                 <div class="badge-number-left">4</div>
                 <img src="image/tracabilite/etape-04-torrefaction.jpg" alt="etape-04-torrefaction" height="50%" width="50%">
 
@@ -141,9 +148,16 @@
                     d'eau. La température est surveillée minute par minute pour ne jamais
                     dépasser 38°C, garantissant un taux intact d'acides gras essentiels
                     (Oméga 6 & 9) et de stérols protecteurs.</p>
-                    <p></p>
+                    <p><img src="img/temperatures.png" alt="temperatures" height="15px" width="15px">Certification Ecocert Biologique</p>
                 </div>
             </div>
+                        <div>
+             <div class="image-container-left">
+                <div class="badge-number-left">6</div>
+                <img src="image/tracabilite/etape-06-mise-en-bouteille.jpg" alt="etape-06-mise-en-bouteille" height="50%" width="50%">
+
+            </div>
+        </div>
         </div>
 
 
@@ -157,7 +171,7 @@
             <div  class="image-container-right">
                   <div class="badge-number-right">1</div>
 
-                    <img src="image/tracabilite/etape-01-recolte.jpg" alt="etape-01-recolte" height="50%" width="50%">
+                    <img src="image/tracabilite/etape-01-recolte.jpg" alt="etape-01-recolte">
 
 
             </div>
@@ -171,6 +185,7 @@
                     séchoir artificiel ou combustible fossile.</p>
                     <p><img src="img/luminosite.png" alt="luminosite" width="15px" height="15px">21 jours sous brise atlantique</p>
                 </div>
+
             </div>
 
             <div  class="image-container-right">
@@ -192,9 +207,97 @@
                     <p><img src="img/inventaire.svg" alt="inventaire" height="15px" width="15px">Flacons recyclables anti-oxydation</p>
                 </div>
             </div>
+            
+            <div  class="image-container-right">
+                  <div class="badge-number-right">5</div>
+
+                    <img src="image/tracabilite/etape-05-pressage.jpg" alt="etape-05-pressage" height="50%" width="50%">
+
+
+            </div>
+            <div>
+                <div>
+                    <h4>ÉTAPE 06 CLARTÉ & PROTECTION</h4>
+                    <h3>Décantation naturelle & Verre ambré</h3>
+                    <p>L huile repose pendant 15 jours en cuves inox pour laisser se déposer les
+                    micro-sédiments. Après un double passage sur filtre en papier vierge non
+                    blanchi, le précieux nectar est scellé dans nos flacons de verre ambré
+                    opaque qui repoussent 99% des rayons ultraviolets.</p>
+                    <p><img src="img/inventaire.svg" alt="inventaire" height="15px" width="15px">Flacons recyclables anti-oxydation</p>
+                </div>
+            </div>
+
          </div>
     </div>
+<!-- troisieme etape -->
+    <div id="avant-derniere">
+        <div class="height-avant-derniere">
+            <div class="titres-gauche">
+                <h4>ÂM E & VIS AG ES DU C OL LE C T I F</h4>
+                <h3>Rencontrez nos coopératrices</h3>
+            </div>
+            <div class="texte-droite">
+                <pre>Chaque flacon est le résultat d'un engagement humain
+solidaire. Les femmes de notre coopérative sont associées
+à 100% aux bénéfices de leur travail.</pre>
+            </div>
+        </div>
 
+
+        <div class="bas-avant-derniere">
+            <div class="article">
+                <div class="cotrol-img">
+                   <img class="articl-img" src="/image/cooperatrices/amina-ait-salem.jpg" alt="amina-ait-salem">
+                </div>
+            <div>
+                <h4>32 ANS DE MÉTIER</h4>
+                <h3>Amina Ait Salem</h3>
+                <p>Maîtresse concasseuse</p>
+                <pre>« Chaque amandon exige patience et
+respect. On écoute le bruit de la coque qui
+cède pour ne jamais heurter le fruit. »</pre>
+            </div>
+            <p><img src="img/coche-cercle.svg" alt="coche-cercle" height="15px" width="15px">Spécialiste concassage manuel</p>
+            </div>
+            <div class="article">
+            
+            <div class="cotrol-img">
+                <img class="articl-img" src="/image/cooperatrices/malika-el-fassi.jpg" alt="malika-el-fassi">
+            </div>
+            <div>
+                <h4>DIPLÔMÉE AGROCHIMIE</h4>
+                <h3>Malika El Fassi</h3>
+                <p>Responsable qualité & filtrage</p>
+                <pre>« Nous veillons à ce que chaque flacon soit
+d'une pureté irréprochable. L'analyse de
+chaque extraction est scrupuleusement
+enregistrée. »</pre>
+            </div>
+            <p><img src="img/laboratoire-de-chimie.png" alt="laboratoire-de-chimie" height="15px" width="15px">Contrôle analytique & Ecocert</p>
+            </div>
+
+            <div class="article">
+            
+            <div class="cotrol-img">
+                <img class="articl-img" src="/image/cooperatrices/zahra-bouzid.jpg" alt="zahra-bouzid">
+            </div>
+             <div>
+                <h4>PIONNIÈRE COOP</h4>
+                <h3>Zahra Bouzid</h3>
+                <p>Coordinatrice des récoltes</p>
+                <pre>« Grâce à la coopérative, nos enfants
+poursuivent leurs études supérieures et nos
+villages revivent dans la dignité retrouvée. »</pre>
+            </div>
+            <p><img src="img/groupe.svg" alt="groupe" height="15px" width="15px">64 familles bénéficiaires</p>
+            </div>
+        </div>
+        
+
+    </div>
+
+    <!-- quatrieme etape -->
+     
 
     </main>
 
