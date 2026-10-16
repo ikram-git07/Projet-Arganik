@@ -132,6 +132,8 @@ a {
 }
 .section-titre {
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* gap: 50px; */
 }
 
 .section-titre h2.title {
@@ -160,15 +162,17 @@ a {
     border-radius: 15px;
     display: inline-block;
 }
+  
 
 .all-div {
   width: 1800px;
     margin: 0 auto;
     margin-left: 40px;
     padding: 35px;
-     background-color: #f1f3d6; 
+     background-color: #f4ecdf;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+
    
 }
 
@@ -261,15 +265,14 @@ a {
 .all-div .butt {
     display: inline-block;
     margin-top: 15px;
-    padding: 14px 25px;
+    padding: 15px 20px;
     border: none;
     border-radius: 7px;
     background-color: #344c3d;
     color: #ffffff;
     font-size: 15px;
     cursor: pointer;
-    transition: 0.3s;
-    width: 30%;
+    width: 45%;
 }
 
 .all-div .butt:hover {
@@ -277,76 +280,16 @@ a {
 }
 
 
-
-
-
-
-footer.body-class {
-    background-color: #f4ecdf;
-    margin: 0;
-    padding: 50px 40px 30px;
-    color: #53605a;
-}
-
-.souspage {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 30px;
-    align-items: start;
-}
-
-.items h2 {
-    font-size: 0.95em;
-    color: #243f32;
-    margin: 0 0 15px;
-    font-weight: bold;
-}
-
-.items h2 span {
-    background-color: #f3a835;
-    color: #ffffff;
-    font-size: 0.8em;
-    padding: 2px 6px;
-    border-radius: 4px;
-}
-
-.items p {
-    font-size: 0.85em;
-    line-height: 1.6;
-    margin-bottom: 8px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    color: #53605a;
-}
-
-.items p a {
-    color: #53605a;
-    transition: color 0.2s;
-}
-
-.items p a:hover {
-    color: #243f32;
-    text-decoration: underline;
-}
-
-.items p img {
-    margin: 0;
-    flex-shrink: 0;
-}
-
 #contactez-nous {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 40px 20px;
     display: flex;
    
-   
 }
 
 
 .info-copira {
-    gap: 10px;
-   
+    gap: 30px;
     width: 100%;
     height: 100px;
 
@@ -358,7 +301,7 @@ footer.body-class {
     
 }
 .info-copira-horaires{
-background-color: beige;
+  background-color: #e7e2d9;
 color: black;
 border-radius: 15px;
 padding: 10px;
@@ -375,30 +318,29 @@ margin: 20px ;
   
 }
 
-
 .info-copira p {
     color: #7d7066; 
     width: 100%;
     font-size: 12px;
     margin: 1px 0 1px 0;
     line-height: 1.5; 
- 
-   
 }
 .back-info{
     padding: 30px;
-    background-color: #d8c9b5;
+    background-color: #f2ebe1;
     border-radius: 15px;
     width: 400px;
 }
 
 .livraison{
-    background-color: #f1f3d6;
+     background-color: #e9e2d8;
     border-radius: 15px;
     padding: 20px;
-    margin: 8px;
+  
     margin-right: 50px;
     width: 400px;
+    color: black;
+    margin-top: 15px;
 }
 
 iframe{
@@ -414,6 +356,101 @@ strong{
         width: 18px;
     }
 }
+
+.faq1{
+    background-color: #e1e1e1;
+    color: rgb(12, 12, 12);
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 70%;
+    margin: auto;
+    padding-left: 30px;
+    border-radius:15px ;
+    padding-right: 30px;
+}
+.faq2{
+    background-color: #e1e1e1;
+    color: rgb(12, 12, 12);
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 70%;
+    margin: auto;
+   
+    padding-left: 30px;
+    border-radius:15px ;
+    padding-right: 30px;
+    margin-top: 12px;
+}
+.faq3{
+    background-color: #e1e1e1;
+    color: rgb(12, 12, 12);
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 70%;
+    margin: auto;
+    padding-left: 30px;
+    border-radius:15px ;
+    padding-right: 30px;
+    margin-top: 12px;
+}
+.faq4{
+    background-color: #e1e1e1;
+    color: rgb(12, 12, 12);
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 70%;
+    margin: auto;
+    padding-left: 30px;
+    border-radius:15px ;
+    padding-right: 30px;
+    margin-top: 12px;
+}
+
+.grand-div{ 
+    padding-bottom: 50px;
+     align-items: center;
+}
+.dern-1{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+
+}
+.dern-1 p{
+    color: #8d5916;
+    margin: auto;
+}
+.dern-1 h1{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ gap: 2px;
+}
+.dern-1 h{
+    opacity: 0.7;
+}
+.dr-noir{
+    background-color: black;
+    color: white;
+    margin: 50px;
+    border-radius: 15px;
+    margin-top: 20px;
+    height: 16vh;
+padding: 5px;
+}
+.dr-noir h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
 
 
 
