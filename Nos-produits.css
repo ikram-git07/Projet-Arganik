@@ -109,7 +109,7 @@ section{
     color: white;
 }
 .carts-produits{
-    margin: 80px 50px;
+    margin: 80px 3em;
     display: flex;
 }
 .Filtres{
@@ -211,28 +211,26 @@ section{
 .inform-Produits{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
-
-
-
 
 .inform-Produit{
     background-color: #b9b5b560;
     width: 250px;
     border-radius: 20px;
+    margin-bottom: 10px;
 }
 .cart-produit-haut{
     background-color: white;
     margin: 0;
-    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .cart-produit-haut div{
     display: flex;
     position: absolute;
-
     align-items: center;
-    gap:35px
-    
+    width: 220px;
 }
 .cart-produit-haut div p{
     background-color: #8f8e8ecc;
@@ -243,12 +241,13 @@ section{
     margin: 0;
 }
 .cart-produit-haut div img{
+    position: absolute;
+    right:-20px;
     background-color: #dcd9d9bd;
-    width: 1.5em;
+    width: 1.6em;
     padding:4px;
     border-radius: 50%;
     margin:2px;
-    align-self: flex-start;
     
 }
 .imgproduit{
@@ -257,12 +256,12 @@ section{
     border-radius:10px
 }
 .card-produits-bas{
-    margin: 0;
+    margin: 0 ;
 }
 .inform-produit div{
     display: flex;
     font-size: small;
-    
+    margin-top: 10px ;
 }
 .inform-produit div img{
     width: 1.4em;
@@ -295,11 +294,13 @@ section{
     border-radius:12px;
     padding: 0;
     justify-content: space-around;
+    margin-top: 50px;
 }
 .p2{
     font-size: 1em;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
+    margin-top: 20px ;
 }
 .p2 span{
     font-weight: 500;
@@ -320,10 +321,11 @@ section{
     padding:5px 0;
     border-radius: 10px;
     align-self: center;
+    margin-top: 10px;
 }
 .vide-part-bas{
     display: flex;
-    
+    margin-top: 0 ;
 }
 .vide{
     width: 250px;
@@ -362,15 +364,20 @@ section{
     margin: 1px;
 }
 .Livrason-garantie{
-    display: flex;
     background-color: #162d20;
-    margin: 0;
+    margin: 100px 0 30px 0;
+}
+.Livras-garan{
+    display: flex;
+    padding: 20px;
 }
 .Livraison{
     display: flex;
+    margin-left: 10px;
 }
 .garantie{
     display: flex;
+    margin-right: 10px;
 }
 .garantie i{
     background-color: #0b1d13;
@@ -401,12 +408,18 @@ section{
 .garantie div h3{
     color:white;
     font-family:'Times New Roman', Times, serif;
-    font-size:1.5em;
+    font-size:1.2em;
     font-weight: 500;
 }
 .Livraison div h3{
     color:white;
     font-family:'Times New Roman', Times, serif;
-    font-size:1.5em;
+    font-size:1.2em;
     font-weight: 500;
+}
+.line{
+    width: 1.2px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.2);
+    align-self: center;
 }
