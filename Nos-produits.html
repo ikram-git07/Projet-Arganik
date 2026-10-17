@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>ARGANIK</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link rel="stylesheet" href="Nos-produits.css">
+    
+</head>
+<body>
+    <header class="en-tete">
+        <div class="en-tete-haut">
+            <p>Livraison offerte au Maroc dès 300 MAD<span> • </span>Coopérative 100% solidaire et biologique certifiée</p>
+        </div>
+        <div class="en-tete-bas">
+            <a href="#" class="logo"><img src="img/logo/arganik-logo.svg" alt=""></a>
+            <nav aria-label="Navigation principale">
+                <input type="checkbox" id="burger">
+
+                <label for="burger" class="burger-icon">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+
+            <ul class="menu">
+                <li><a href="index.html" >Accueil</a></li>
+                <li><a href="#Nos-produits" id="lineactif">Nos produits</a></li>
+                <li><a href="Traçabilité.html">Traçabilité</a></li>
+                <li><a href="contactez-nous.html">Contact</a></li>
+            </ul>
+           </nav>
+            <div class="en-tete-bas-icons">
+                <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+                <a href="#"><img src="img/divers/avatar-utilisateur.jpg" alt=""></a>
+            </div>
+        </div>
+    </header>
+        <section id="Nos-produits">
+            <div class="main-produits">
+                <div class="text-Terroir">
+                    <div class="icon-text-Terroir">
+                        <i class="fa-regular fa-house"></i>
+                        <p><span>Accueil</span> / Nos produits</p>
+                    </div>
+                    <ul>
+                        <li><span>RÉCOLTES ARTISANALES DU SOUSS</span></li>
+                    </ul>
+                    <h1>Nos Produits du Terroir</h1>
+                    <p>Des nectars purs, soins cosmétiques et délices culinaires issus de cueillettes <br>sauvages éco-certifiées, pressés à la main dans notre coopérative solidaire <br> d’Agadir.</p>
+                </div>
+                <div class="text-Terroir-logo">
+                    <div class="text-Terroir-logo-icon">
+                        <i class="fa-solid fa-spa"></i>
+                    </div>
+                    <div class="text-logo">
+                        <h5>PURETÉE GARANTIE</h5>
+                        <p>100 % Biologique & Équitable</p>
+                    </div>
+                </div>
+            </div>
+            <div class="Produits-disponibles">
+                <a href="#" class="prod-dispon1" id="Tous"> Tous <span>24</span></a>
+                <a href="#" class="prod-dispon"> Cosmétique Pure <span>8</span></a>
+                <a href="#" class="prod-dispon"> Alimentaire & Torréfiée <span>6</span></a>
+                <a href="#" class="prod-dispon"> Amlou & Miels Rares <span>5</span></a>
+                <a href="#" class="prod-dispon"> Savons Purs & Soins <span>5</span></a>
+            </div>
+            <div class="carts-produits">
+                <aside class="Filtres">
+                    <p class="title-filtres"><img src="icons/filtres.svg" alt=""><span>Filtres</span></p>
+                    <form class="form-haut">
+                        <p><img src="icons/certifie.svg" alt="" ><span>Certifications</span></p>
+                        <div>
+                            <input type="button" id="inputhaut1">
+                            <label for="inputhaut1">100% Biologique Certifié</label>
+                            <p>(18)</p>
+                        </div>
+                        <div>
+                            <input type="button" id="inputhaut2">
+                            <label for="inputhaut2">Commerce Solidaire</label>
+                            <p>(24)</p>
+                        </div>
+                        <div>
+                            <input type="button" id="inputhaut3">
+                            <label for="inputhaut3">Sans conservateurs</label>
+                            <p>(14)</p>
+                        </div>
+                        <div>
+                            <input type="button" id="inputhaut4">
+                            <label for="inputhaut4">Indication Géographique(IGP)</label>
+                            <p>(11)</p>
+                        </div>
+                    </form>
+                    <form class="form-bas">
+                        <p><i class="fa-solid fa-ruler-horizontal"></i><span>Format / Contenance</span></p>
+                        <div class="input-form-bas">
+                            <div>
+                                <input type="button" id="50ml" name="inut-bas">
+                                <label for="50ml">50 ml</label>
+                            </div>
+                            <div>
+                                <input type="button" id="a100ml" name="inut-bas">
+                                <label for="a100ml">100 ml</label>
+                            </div>
+                            <div>
+                                <input type="button" id="250ml" name="inut-bas">
+                                <label for="250ml">250 ml</label>
+                            </div>
+                            <div>
+                                <input type="button" id="500ml" name="inut-bas">
+                                <label for="500ml">500 ml</label>
+                            </div>
+                            <div class="input-form-bas-5">
+                            <input type="button" id="100g" name="inut-bas">
+                            <label for="100g">Pain solide (100g - 200g)</label>                                        
+                            </div>        
+                        </div>       
+                    </form>
+                </aside>
+                <div class="inform-Produits">
+                <article class="inform-Produit">
+                    <div class="cart-produit-haut">
+                        <div>
+                            <p>BIO & 1ÈRE PRESSION</p>
+                            <img src="icons/favori.svg" alt="" class="iconproduit">
+                        </div>
+                        <img src="img/produits/huile-argan-cosmetique-01.jpg" alt="" class="imgproduit">
+                    </div>
+                    <div class="cart-produit-bas">
+                        <div class="inform-produit">                        
+                            <div>
+                                <img src="icons/etoile.svg" alt="">
+                                <p>4.9 <span>(64 avis)</span></p>
+                            </div>
+                            <h3>Huile d'Argan Cosmétique Pure</h3>
+                            <p>Pressée à froid à la meule de pierre. Hydratation…</p>
+                        </div>
+                        <div class="Contenance">
+                            <p>Contenance</p>
+                            <p>100 ml</p>
+                        </div>
+                        <p class="p2"><span>Prix unitaire :</span> 180 MAD</p>
+                        <div class="plus-inform-produit">
+                            <a href="Fiche_produit.html">
+                                <i class="fa-regular fa-eye"></i>
+                                <p>Découvrir</p>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="inform-Produit">
+                    <div class="cart-produit-haut">
+                        <div>
+                            <p> GOURMAND & NOUVEAU</p>
+                            <img src="icons/favori.svg" alt="" class="iconproduit">
+                        </div>
+                        <img src="img/produits/amlou-amandes-miel-01.jpg" alt="" class="imgproduit">
+                    </div>
+                    <div class="cart-produit-bas">
+                        <div class="inform-produit">                        
+                            <div>
+                                <img src="icons/etoile.svg" alt="">
+                                <p>5.0 <span>(89 avis)</span></p>
+                            </div>
+                            <h3>Amlou Amandes & Fleur d'Oranger</h3>
+                            <p>Pâte à tartiner traditionnelle berbère à…</p>
+                        </div>
+                        <div class="Contenance">
+                            <p>Poids net</p>
+                            <p>250 g</p>
+                        </div>
+                        <p class="p2"><span>Prix unitaire :</span> 140 MAD</p>
+                        <div class="plus-inform-produit">
+                            <a href="Fiche_produit.html">
+                                <i class="fa-regular fa-eye"></i>
+                                <p>Découvrir</p>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="inform-Produit">
+                    <div class="cart-produit-haut">
+                        <div>
+                            <p> TERROIR AOP SOUSS</p>
+                            <img src="icons/favori.svg" alt="" class="iconproduit">
+                        </div>
+                        <img src="img/produits/huile-argan-culinaire-01.jpg" alt="" class="imgproduit">
+                    </div>
+                    <div class="cart-produit-bas">
+                        <div class="inform-produit">                        
+                            <div>
+                                <img src="icons/etoile.svg" alt="">
+                                <p>4.8 <span>(42 avis)</span></p>
+                            </div>
+                            <h3>Huile Culinaire Torréfiée</h3>
+                            <p>Saveur délicate de noisette grillée. Riche en</p>
+                        </div>
+                        <div class="Contenance">
+                            <p>Contenance</p>
+                            <p>250 ml</p>
+                        </div>
+                        <p class="p2"><span>Prix unitaire :</span> 210 MAD</p>
+                        <div class="plus-inform-produit">
+                            <a href="Fiche_produit.html">
+                                <i class="fa-regular fa-eye"></i>
+                                <p>Découvrir</p>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="inform-Produit">
+                    <div class="cart-produit-haut">
+                        <div>
+                            <p> 100% VÉGÉTAL NATURE</p>
+                            <img src="icons/favori.svg" alt="" class="iconproduit">
+                        </div>
+                        <img src="img/produits/savon-noir-argan-01.jpg" alt="" class="imgproduit">
+                    </div>
+                    <div class="cart-produit-bas">
+                        <div class="inform-produit">                        
+                            <div>
+                                <img src="icons/etoile.svg" alt="">
+                                <p>4.9 <span>(49 avis)</span></p>
+                            </div>
+                            <h3>Savon Noir Artisanal à l'Argan</h3>
+                            <p>Rituel purifiant de gommage corporel.…</p>
+                        </div>
+                        <div class="Contenance">
+                            <p>Format pot</p>
+                            <p>200 g</p>
+                        </div>
+                        <p class="p2"><span>Prix unitaire :</span> 75 MAD</p>
+                        <div class="plus-inform-produit">
+                            <a href="Fiche_produit.html">
+                                <i class="fa-regular fa-eye"></i>
+                                <p>Découvrir</p>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="inform-Produit">
+                    <div class="cart-produit-haut">
+                        <div>
+                            <p> ÉDITION LIMITÉE</p>
+                            <img src="icons/favori.svg" alt="" class="iconproduit">
+                        </div>
+                        <img src="img/produits/serum-argan-figue-barbarie.jpg" alt="" class="imgproduit">
+                    </div>
+                    <div class="cart-produit-bas">
+                        <div class="inform-produit">                        
+                            <div>
+                                <img src="icons/etoile.svg" alt="">
+                                <p>4.95 <span>(31 avis)</span></p>
+                            </div>
+                            <h3>Sérum Argan & Figue de Barbarie</h3>
+                            <p>L'élixir de jeunesse suprême du sud…</p>
+                        </div>
+                        <div class="Contenance">
+                            <p>Pipette verre</p>
+                            <p>50 ml</p>
+                        </div>
+                        <p class="p2"><span>Prix unitaire :</span> 290 MAD</p>
+                        <div class="plus-inform-produit">
+                            <a href="Fiche_produit.html">
+                                <i class="fa-regular fa-eye"></i>
+                                <p>Découvrir</p>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="inform-Produit">
+                    <div class="cart-produit-haut">
+                        <div>
+                            <p> RÉCOLTE 2024</p>
+                            <img src="icons/favori.svg" alt="" class="iconproduit">
+                        </div>
+                        <img src="img/produits/miel-euphorbe-sauvage.jpg" alt="" class="imgproduit">
+                    </div>
+                    <div class="cart-produit-bas">
+                        <div class="inform-produit">                        
+                            <div>
+                                <img src="icons/etoile.svg" alt="">
+                                <p>4.85 <span>(27 avis)</span></p>
+                            </div>
+                            <h3>Miel d'Euphorbe Sauvage (Daghmous)</h3>
+                            <p>Miel rare réputé pour sa note poivrée et ses vertus</p>
+                        </div>
+                        <div class="Contenance">
+                            <p>Poids net</p>
+                            <p> 300 g</p>
+                        </div>
+                        <p class="p2"><span>Prix unitaire :</span> 160 MAD</p>
+                        <div class="plus-inform-produit">
+                            <a href="Fiche_produit.html">
+                                <i class="fa-regular fa-eye"></i>
+                                <p>Découvrir</p>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="inform-Produit">
+                    <div class="cart-produit-haut">
+                        <div>
+                            <p> SAPONIFIÉ À FROID</p>
+                            <img src="icons/favori.svg" alt="" class="iconproduit">
+                        </div>
+                        <img src="img/produits/savon-argan-argile-rouge.jpg" alt="" class="imgproduit">
+                    </div>
+                    <div class="cart-produit-bas">
+                        <div class="inform-produit">                        
+                            <div>
+                                <img src="icons/etoile.svg" alt="">
+                                <p>4.7 <span>(38 avis)</span></p>
+                            </div>
+                            <h3>Savon Argan & Argile Rouge</h3>
+                            <p>Pain surgras enrichi à 12% d'huile d'argan crue.…</p>
+                        </div>
+                        <div class="Contenance">
+                            <p>Poids net</p>
+                            <p> 100 g</p>
+                        </div>
+                        <p class="p2"><span>Prix unitaire :</span> 45 MAD</p>
+                        <div class="plus-inform-produit">
+                            <a href="Fiche_produit.html">
+                                <i class="fa-regular fa-eye"></i>
+                                <p>Découvrir</p>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="inform-Produit">
+                    <div class="cart-produit-haut">
+                        <div>
+                            <p>  COFFRET CADEAU PRESTIGE</p>
+                            <img src="icons/favori.svg" alt="" class="iconproduit">
+                        </div>
+                        <img src="img/produits/coffret-rituel-hammam.jpg" alt="" class="imgproduit">
+                    </div>
+                    <div class="cart-produit-bas">
+                        <div class="inform-produit">                        
+                            <div>
+                                <img src="icons/etoile.svg" alt="">
+                                <p>5.0 <span>(74 avis)</span></p>
+                            </div>
+                            <h3>Coffret Rituel Hammam & Beauté</h3>
+                            <p>L'expérience complète du bien-être marocain :…</p>
+                        </div>
+                        <div class="Contenance">
+                            <p>Écrin artisanal</p>
+                            <p>4 Soins Inclus</p>
+                        </div>
+                        <p class="p2"><span>Prix unitaire :</span> 390 MAD</p>
+                        <div class="plus-inform-produit">
+                            <a href="Fiche_produit.html">
+                                <i class="fa-regular fa-eye"></i>
+                                <p>Découvrir</p>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                </div>
+            </div>
+            <div class="vide-part-bas">
+            <div class="vide"></div>
+            <div class="parte-bas">
+                <p>Page 1 sur 3<span>•</span>24 produits au total</p>
+                <div>
+                    <a href="#"><button class="btn1">&#60; Précédent</button></a>
+                    <a href="#"><button class="btn" id="btn1">1</button></a>
+                    <a href="#"><button class="btn">2</button></a>
+                    <a href="#"><button class="btn">3</button></a>
+                    <a href="#"><button class="btn2">Suivant &#62;</button></a>
+                </div>
+            </div>
+            </div>
+            <article class="Livrason-garantie">
+                <div class="Livras-garan">
+                <div class="Livraison ">
+                    <i class="fa-regular fa-truck"></i>
+                    <div>
+                        <h3>Expédié directement depuis notre atelier d'Agadir</h3>
+                        <p>Livraison sécurisée sous 24h à 48h dans tout le Maroc et traçabilité de lot.</p>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="garantie">
+                    <i class="fa-solid fa-hand-holding-heart"></i>
+                    <div>
+                        <h3>Rémunération juste garantie aux productrices</h3>
+                        <p>100% des bénéfices réinvestis dans la formation rurale et la scolarisation</p>
+                    </div>
+                </div>
+                </div>
+            </article>
+        </section>
+    <footer  >
+    <div class="souspage">
+        <div class="items">
+            <h2>Arganik <span >SOUSS TERROIR</span></h2>
+
+            <p>Héritage séculaire de la Vallée du Souss. Notre
+            coopérative féminine perpétue l'extraction artisanale de
+            l'huile d'argan pure certifiée biologique, garantissant une
+            juste rétribution à plus de 60 artisanes locales.</p>
+            <p id="ouverture">HORAIRES D'OUVERTURE</p>
+            <p><i class="fa-regular fa-clock"></i>Lundi - Samedi : 08h30 - 18h00</p>
+        </div>
+        <div class="items">
+            <h2>NAVIGATION & PRODUITS</h2>
+            <p>Accueil & Coopérative
+            Huile d'Argan Cosmétique
+            Huile Culinaire Torréfiée
+            Amlou Traditionnel aux Amandes
+            Savons Purs & Soins Botaniques
+            Traçabilité & Cartographie
+            Engagements & Impact Féminin</p>
+        </div>
+        <div class="items">
+            <h2>ATELIER & CONTACT</h2>
+            <p><i class="fa-solid fa-location-dot"></i>Route d'Imouzzer,
+            Région Souss-Massa,
+            Agadir, Maroc</p>
+            <p><i class="fa-solid fa-phone"></i>+212 (0)5 28 84 92 10</p>
+            <p><i class="fa-regular fa-envelope"></i>contact@arganik-coop.ma</p>
+            <p> <i class="fa-regular fa-camera" id="icon"></i>
+                <i class="fa-solid fa-earth-americas" id="icon"></i>
+                <i class="fa-regular fa-message" id="icon"></i>
+                <i class="fa-regular fa-bookmark" id="icon"></i>
+            </p>
+        </div>
+        <div class="items">
+            <h2>LETTRE DU TERROIR</h2> 
+            <p>Recevez nos carnets de récolte, nouvelles
+            de la coopérative et éditions limitées.</p>
+            <input type="text" placeholder="Votre adresse courriel..." class="inputfinal">
+            <button id="button">S'inscrire</button>
+        </div>
+    </div>
+        <div class="footer-certifications">
+            <p><img src="icons/certifie.svg" alt="" >CERTIFIÉ BIOLOGIQUE MAROC</p>
+            <p><img src="icons/feuille-eco.svg" alt="feuille-eco" width="20px" height="20px">ECOCERT COSMÉTIQUE NATUREL</p>
+            <p><img src="icons/groupe.svg" alt="groupe" width="20px" height="20px">COMMERCE ÉQUITABLE SOLIDAIRE</p>
+            <p><i class="fa-solid fa-sun"></i>IGP ARGANE DU SOUSS</p>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Coopérative Féminine Arganik. Tous droits réservés.</p>
+            <div>
+            <span>Mentions légales</span>
+            <span>Politique de confidentialité</span>
+            <span>Conditions de vente</span>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>
