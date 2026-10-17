@@ -73,6 +73,13 @@ span{
     border-radius: 10px;
     color: white;
 }
+.lineactif{
+    background-color: #2F493A;
+    height: 5px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    color: white;
+}
 .en-tete-bas-icons a i{
     font-size: x-large;
     color: black;
@@ -635,7 +642,6 @@ section{
     gap:5em;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 }
 @media(max-width:1120px){
