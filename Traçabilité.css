@@ -422,6 +422,32 @@ h2 span {
     color: #53605a;
 }
 /* troisieme etape */
+.rituel-entete {
+    text-align: center;
+    padding: 40px 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    box-sizing: border-box;
+}
+
+#rituel-titre {
+    color: #a56a25;
+    font-size: 14px;
+    letter-spacing: 5px;
+    margin-bottom: 15px;
+}
+
+#rituel-sous-titre {
+    color: #183324;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.rituel-entete p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.8;
+}
 #tous {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -546,6 +572,17 @@ h2 span {
     height: auto;
     object-fit: cover;
 }
+@media screen and (max-width: 768px) {
+    #tous {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+    }
+}
 
 /* troisieme etape */
 
@@ -613,3 +650,100 @@ h2 span {
 
 
 
+
+#certifications {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 60px 30px;
+    margin: 60px auto;
+    background-color: #FEF7EF;
+    color: #183324;
+}
+
+.certifications-titre {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.certifications-titre h4 {
+    color: #a56a25;
+    font-size: 1rem;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+}
+
+.certifications-titre h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.certifications-cartes {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(min(100%, 230px), 1fr)
+    );
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.certification {
+    box-sizing: border-box;
+    min-width: 0;
+    padding: 30px 22px;
+    background-color: #ffffff;
+    border: 1px solid #e5d8c7;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.certification-logo {
+    width: 100%;
+    min-height: 100px;
+    box-sizing: border-box;
+    background-color: #f5eee3;
+    color: #183324;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+    padding: 10px;
+}
+
+.certification-logo span:first-child {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #a56a25;
+}
+
+.certification-logo span:last-child {
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+}
+
+.certification h3 {
+    font-size: 1.15rem;
+    margin: 0;
+}
+
+.certification p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin: 0;
+    color: #555555;
+}
+
+.certification-reference {
+    margin-top: auto;
+    padding-top: 15px;
+    font-size: 0.8rem;
+    color: #a56a25;
+    overflow-wrap: anywhere;
+}
