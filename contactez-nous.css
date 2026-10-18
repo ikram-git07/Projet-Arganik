@@ -130,14 +130,15 @@ a {
     max-width: 850px;
     margin: 10px auto;
 }
-
-.section-titre .first-tit{
+.section-titre .first-tit {
     background-color: rgb(241, 221, 196);
-    color: rgba(38, 34, 34, 0.219);
+    color:#62451e; 
     border-radius: 15px;
     display: inline-block;
+    font-size: 15px;
+    padding: 5px 12px; 
 }
-  
+
 
 .all-div {
   width: 1800px;
@@ -1051,4 +1052,8 @@ img {
         flex-wrap: wrap;
         gap: 15px;
     }
+}
+.fuile{
+    position: relative;
+    top: 7px;
 }
