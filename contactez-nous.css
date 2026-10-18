@@ -807,12 +807,9 @@ img {
     }
 }
 
-/* ==============================
-   TELEPHONE - 480px et moins
-   ============================== */
+/*  TELEPHONE */
 @media (max-width: 480px) {
 
-    /* Bandeau supérieur */
     .en-tete-haut {
         height: auto;
         min-height: 40px;
@@ -824,7 +821,7 @@ img {
         margin: 0;
     }
 
-    /* Header */
+ 
     .en-tete-bas {
         justify-content: space-between;
         gap: 10px;
@@ -854,7 +851,7 @@ img {
         font-size: 12px;
     }
 
-    /* Titres de la page */
+  
     .section-titre {
         padding: 15px 12px;
     }
@@ -870,7 +867,7 @@ img {
         line-height: 1.6;
     }
 
-    /* Formulaire */
+   
     #contactez-nous {
         padding: 20px 12px;
         gap: 20px;
@@ -896,7 +893,7 @@ img {
         padding: 14px 10px;
     }
 
-    /* Informations */
+  
     #contactez-nous .back-info,
     #contactez-nous .livraison {
         padding: 18px 14px;
@@ -911,7 +908,7 @@ img {
         height: 220px;
     }
 
-    /* FAQ */
+  
     .dern-1 {
         margin: 30px 12px;
         text-align: center;
@@ -963,7 +960,7 @@ img {
         overflow-wrap: anywhere;
     }
 
-    /* Footer */
+   
     footer {
         margin: 20px 8px;
         padding: 25px 15px;
@@ -996,13 +993,11 @@ img {
 
 
 
-/* ==============================
-   RESPONSIVE TABLETTE / IPAD
-   ============================== */
+/* RESPONSIVE TABLETTE / IPAD*/
 
 @media (min-width: 481px) and (max-width: 1024px) {
 
-    /* Titre de la page */
+
     .section-titre {
         padding: 25px 20px;
     }
@@ -1012,7 +1007,7 @@ img {
         font-size: clamp(30px, 4vw, 40px);
     }
 
-    /* Header */
+  
     .en-tete-bas {
         padding: 15px 20px;
         gap: 15px;
@@ -1034,7 +1029,7 @@ img {
         font-size: 14px;
     }
 
-    /* Section contact */
+    
     #contactez-nous {
         grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
         gap: 20px;
@@ -1053,7 +1048,7 @@ img {
         width: 100%;
     }
 
-    /* Informations de contact */
+    
     #contactez-nous .back-info,
     #contactez-nous .livraison {
         padding: 20px 15px;
@@ -1068,7 +1063,7 @@ img {
         overflow-wrap: anywhere;
     }
 
-    /* FAQ */
+  
     .faq1,
     .faq2,
     .faq3,
@@ -1078,7 +1073,7 @@ img {
         gap: 15px;
     }
 
-    /* Footer */
+  
     footer {
         padding: 35px 25px;
     }
