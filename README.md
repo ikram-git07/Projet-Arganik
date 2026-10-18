@@ -49,3 +49,6 @@ zakaria : Nos produits
 Said Raya: Fiche produit
 Badreddine ezzatami: Traçabilité
 Arbaoui ikram: Contact
+deploy: https://ikram-git07.github.io/Projet-Arganik/
+planification : https://trello.com/invite/b/6accc33776a9b6a4293ab1bb/ATTIa7304cce25ac98f146cc4c61fa9c031755EFDEE5/arganik
+github_repo: https://github.com/ikram-git07/Projet-Arganik
