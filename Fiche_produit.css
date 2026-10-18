@@ -49,9 +49,11 @@ input {
     top: 0;
     z-index: 9;
     background-color: #FEF7EF;
+    padding-top: 10px;
 }
  
 .en-tete-haut {
+    
     width: 100%;
     height: 2em;
     display: flex;
@@ -549,6 +551,7 @@ input {
  
 footer,
 .body-class {
+    margin-top: 18vh;
     color: #53605a;
 }
  
@@ -557,12 +560,17 @@ footer {
     margin: 30px 20px 22px;
     padding: 50px 40px 30px;
 }
- 
+ .feature-icon {
+    font-size: 20px;
+}
 .souspage {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
     gap: 30px;
-    align-items: start;
+    align-items: flex-start;   
+}
+.souspage > * {
+    flex: 1;          
+    min-width: 0;    
 }
  
 .items h2 {
@@ -843,6 +851,9 @@ h2 span {
     display: flex;
     width: 20vw;
 }
+.borders-4 img{
+     background-color:rgb(103, 100, 100);
+}
 .flex-t{
      display: flex;
     width: 90vw;
@@ -881,8 +892,7 @@ h2 span {
     height: 18px;
 }
 .products-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
     gap: 24px;
     margin-top: 28px;
 }
@@ -916,6 +926,18 @@ h2 span {
     font-size: 10px;
     font-weight: 700;
     letter-spacing: 0.5px;
+}
+.badge-x{
+     position: absolute;
+    top: 18px;
+    left: 12px;
+    padding: 4px 10px;
+    background-color: #ebeaea;
+    border-radius: 8px;
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+
 }
 .card-body {
     display: flex;
@@ -1157,5 +1179,31 @@ h2 span {
  
     .style-text {
         font-size: 1.6em !important;
+    }
+}
+@media ( max-width: 1424px) and (min-width: 768.89px){
+    .achat{
+        height: 5vh;
+    }
+    .two-char {
+        width: 3vw;
+    }
+}
+@media (max-width:375px) {
+    .two-char{
+        width: 4.6vw;
+    }
+}
+@media (max-width: 1032px) and (min-width: 1030px){
+     .two-char{
+        width: 6.4vw;
+        padding: 20.8px;
+     }
+
+
+}
+@media (max-width: 1024px) and (min-width: 766px){
+    .two-char{
+        width: 4vw;
     }
 }
