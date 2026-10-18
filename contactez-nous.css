@@ -1,4 +1,4 @@
-* {
+*{
     box-sizing: border-box;
 }
 
@@ -102,29 +102,6 @@ a {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* hadi dial titre lwel li tayban lia lkbir  */
 .section{
     gap: 30px;
@@ -132,7 +109,7 @@ a {
 .section-titre {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    /* gap: 50px; */
+  
 }
 
 .section-titre h2.title {
@@ -450,17 +427,7 @@ strong{
 }
 
 
-
-
-
-
-
-
-
-/* 
-
-/* hada rah lfooter dial bader  ghit dakchi ldila frex
-*/
+/* hada rah lfooter dial bader  ghit dakchi ldila frex*/
 
 .body-class {
     margin: 0;
@@ -733,9 +700,9 @@ img {
     margin: 15px auto;
 }
 
-/* ==============================
+/* 
    TABLETTE - 768px et moins
-   ============================== */
+    */
 @media (max-width: 768px) {
 
     /* Header */
@@ -764,7 +731,7 @@ img {
         padding: 8px;
     }
 
-    /* Contact : une colonne */
+  
     #contactez-nous {
         grid-template-columns: minmax(0, 1fr);
         gap: 25px;
